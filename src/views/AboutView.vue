@@ -2,7 +2,7 @@
 
 <h1>About this site</h1>
 	<p>This is the personal site of M Wong.</p>
-	<p>This site is built by using Vue, JavaScript, HTML and CSS.</p>
+	<p>This site is built by using Vue, JavaScript, HTML and CSS. Web hosting is done by Github Pages.</p>
 <br />
 <h2>Privacy policy of this site</h2>
 <h3>My contact</h3>
