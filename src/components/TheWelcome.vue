@@ -1,16 +1,10 @@
 <script setup>
-import WelcomeItem from './WelcomeItem.vue'
-import DocumentationIcon from './icons/IconDocumentation.vue'
-import ToolingIcon from './icons/IconTooling.vue'
-import EcosystemIcon from './icons/IconEcosystem.vue'
-import CommunityIcon from './icons/IconCommunity.vue'
-import SupportIcon from './icons/IconSupport.vue'
+
 </script>
 
 <template>
-  <WelcomeItem>
     
-    <template #heading>About me</template>
+    <h1>Home</h1>
 
     <div class="Intro">
 <p>Welcome to my personal website. I am a researcher in computer vision & machine learning with Ph.D in Computer Science, 
@@ -51,16 +45,14 @@ Vue 3, JavaScript, HTML and CSS. This site is hosted by GitHub Pages.</p>
 	</ul>
 </div>
 <p>This site is under construction</p>		
-  </WelcomeItem>
 
 
-  <WelcomeItem>
    
-    <template #heading>Notice</template>
+    Notice
 
     <div class="Footer">
 	<p>This site might use cookies in order to improve the web browsing experience of users. If you continue to 
 	use this site, it will be assumed you agree to the use of cookies.</p>
 </div>
-  </WelcomeItem>
+ 
 </template>

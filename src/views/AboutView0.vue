@@ -1,9 +1,7 @@
 <template>
-
-    <h1>About</h1>
-	<p>This is the personal site of M Wong.</p>
-	<p>This site is built by using Vue, JavaScript, HTML and CSS.</p>
- 
+  <div class="about">
+    <h1>This is an about page</h1>
+  </div>
 </template>
 
 <style>
