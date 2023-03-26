@@ -9,14 +9,18 @@ defineProps({
 
 <template>
   <div class="greetings">
-    <h1 class="green">{{ msg }}</h1>
-    <h3>
+    <h1 class="titleColor">{{ msg }}</h1>
+    <h3 class="titleColor">
       My personal site
     </h3>
   </div>
 </template>
 
 <style scoped>
+.titleColor {
+  color: purple;
+}
+
 h1 {
   font-weight: 500;
   font-size: 2.6rem;
