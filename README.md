@@ -1,4 +1,4 @@
-# mysite
+# myapp
 ## This is the personal site of M Wong. It is built by using Vue 3, Javascript, HTML and CSS. The site is hosted by Github Pages.
 
 This template should help get you started developing with Vue 3 in Vite.
