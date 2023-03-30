@@ -17,8 +17,9 @@ defineProps({
 </template>
 
 <style scoped>
-.titleColor {
+.greetings {
   color: purple;
+  
 }
 
 h1 {
