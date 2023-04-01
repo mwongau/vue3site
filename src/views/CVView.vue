@@ -2,7 +2,6 @@
 
 <div class="CV">
 	<h1>CV</h1>
-        <br />
 	<h2>Academic degrees</h2>
 	<ul>
 	<li>PhD in Computer Science </li>
