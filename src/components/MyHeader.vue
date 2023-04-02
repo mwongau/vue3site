@@ -9,17 +9,16 @@ defineProps({
 
 <template>
   <div class="greetings">
-    <h1 class="titleColor">{{msg}}</h1>
-    <h3 class="titleColor">
-      My personal site
-    </h3>
+    <h1>{{msg}}</h1>
+    <h3> My personal site </h3>
   </div>
 </template>
 
 <style scoped>
 .greetings {
   color: purple;
-   
+  background-color : AliceBlue;
+  padding : 3px;  
 }
 
 h1 {
@@ -34,13 +33,6 @@ h3 {
 
 .greetings h1,
 .greetings h3 {
-  text-align: center;
-}
-
-@media (min-width: 1024px) {
-  .greetings h1,
-  .greetings h3 {
-    text-align: left;
-  }
+  text-align: left;
 }
 </style>
