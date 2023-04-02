@@ -9,7 +9,7 @@ defineProps({
 
 <template>
   <div class="greetings">
-    <h1 class="titleColor">{{ msg }}</h1>
+    <h1 class="titleColor">{{msg}}</h1>
     <h3 class="titleColor">
       My personal site
     </h3>
@@ -19,7 +19,7 @@ defineProps({
 <style scoped>
 .greetings {
   color: purple;
-  background-color: AliceBlue; 
+   
 }
 
 h1 {
