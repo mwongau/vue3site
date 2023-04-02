@@ -1,7 +1,7 @@
 <template>
 <h1>Privacy policy</h1>
 <h2>My contact</h2>
-	<p>GitHub: https://github.com/mwongau </p>
+	
 	<p>Email: mwong[at]mwongsite.com, replace [at] by @ </p>
 	<p>If you contact the site author by email, your name, 
 		email address and other information you provide to the 

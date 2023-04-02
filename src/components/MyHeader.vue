@@ -19,7 +19,7 @@ defineProps({
 <style scoped>
 .greetings {
   color: purple;
-  
+  background-color: AliceBlue; 
 }
 
 h1 {
