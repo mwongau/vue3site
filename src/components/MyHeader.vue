@@ -8,17 +8,19 @@ defineProps({
 </script>
 
 <template>
-  <div class="greetings">
+  <div class="titles">
     <h1>{{msg}}</h1>
     <h3> My personal site </h3>
   </div>
 </template>
 
 <style scoped>
-.greetings {
-  color: purple;
-  background-color : AliceBlue;
-  padding : 3px;  
+.titles {
+  	background: url("./images/sky1.jpg");
+	background-repeat: no-repeat;  
+	background-size: cover;	
+	padding: 3px;
+	color: purple; 
 }
 
 h1 {
@@ -31,8 +33,8 @@ h3 {
   font-size: 1.2rem;
 }
 
-.greetings h1,
-.greetings h3 {
+.titles h1,
+.titles h3 {
   text-align: left;
 }
 </style>
