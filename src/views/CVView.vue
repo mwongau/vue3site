@@ -1,5 +1,4 @@
 <template>
-
 <div class="CV">
 	<h1>CV</h1>
 	<h2>Academic degrees</h2>
@@ -32,9 +31,7 @@
 	<li>Computer vision library: OpenCV, scikit-image</li>
 	</ul>
 </div>
- 
 </template>
 
 <style>
-
 </style>

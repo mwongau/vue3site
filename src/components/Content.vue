@@ -1,8 +1,7 @@
 <script setup>
 </script>
 
-<template>
-    
+<template>    
 <h1>Home</h1>
 <div class="Intro">
 <p>Welcome to the personal site of M Wong. I am a researcher in computer vision & machine learning with Ph.D in Computer Science, 
