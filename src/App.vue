@@ -12,8 +12,7 @@ import MyHeader from './components/MyHeader.vue'
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/cv">CV</RouterLink>
         <RouterLink to="/photos">Photos</RouterLink>
-        <RouterLink to="/privacy">Privacy</RouterLink>
-        
+        <RouterLink to="/privacy">Privacy</RouterLink>       
       </nav>
     </div>
   </header>

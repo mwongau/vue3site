@@ -33,5 +33,3 @@
 </div>
 </template>
 
-<style>
-</style>
