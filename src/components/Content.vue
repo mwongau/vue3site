@@ -17,6 +17,6 @@ use this site, it will be assumed you agree to the use of cookies.</p>
 
 <style scoped>
 .Footer {
-background-color: AliceBlue
+background-color: FloralWhite;
 }
 </style>

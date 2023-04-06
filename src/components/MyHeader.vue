@@ -16,11 +16,9 @@ defineProps({
 
 <style scoped>
 .titles {
-  	background: url("./images/sky1.jpg");
-	background-repeat: no-repeat;  
-	background-size: cover;	
+  	background-color: AliceBlue;
 	padding: 3px;
-	color: purple; 
+	color: orange; 
 }
 
 h1 {

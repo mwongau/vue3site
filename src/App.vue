@@ -18,7 +18,7 @@ import MyHeader from './components/MyHeader.vue'
 
 <style scoped>
 .nav {
-  background-color: #eef;
+  background-color: FloralWhite;
   padding: 10px;
   text-align: left;
 }
