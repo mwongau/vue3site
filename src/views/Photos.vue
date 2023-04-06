@@ -1,14 +1,21 @@
+<script setup>
+import { ref } from 'vue'
+
+const acu = ref("/acupy.jpg")
+const uts = ref("/uts-bldg5.jpg")
+</script>
+
 <template>
 <div class="photos">
    <h1>Photos</h1>
-   <h3>Australian Catholic University, Strathfield Campus</h3>
-   <img src="../images/acupy.jpg">
+   <h4>Australian Catholic University, Strathfield Campus</h4>
+   <img :src="acu" alt="acu">
    <br />
 
-   <h3>University of Technology Sydney, Building 5</h3>
-   <img src="../images/uts-bldg5.jpg">
-
+   <h4>University of Technology Sydney, Building 5</h4>
+   <img :src="uts" alt="uts">
 </div>
 </template>
+
 
 
