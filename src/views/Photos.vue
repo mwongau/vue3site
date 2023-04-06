@@ -1,8 +1,12 @@
-<script setup>
-import { ref } from 'vue'
-
-const acu = ref("/acupy.jpg")
-const uts = ref("/uts-bldg5.jpg")
+<script>
+export default {
+  data() {
+    return {
+      acu: '/acupy.jpg',
+      uts: '/uts-bldg5.jpg'
+    }
+  }
+}
 </script>
 
 <template>
@@ -13,9 +17,11 @@ const uts = ref("/uts-bldg5.jpg")
    <br />
 
    <h4>University of Technology Sydney, Building 5</h4>
-   <img :src="uts" alt="uts">
+   <img :src="uts" alt="acu">
 </div>
 </template>
+
+
 
 
 
