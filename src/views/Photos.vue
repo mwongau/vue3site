@@ -2,8 +2,15 @@
 export default {
   data() {
     return {
-      acu: '/acupy.jpg',
-      uts: '/uts-bldg5.jpg'
+      img: '/acupy.jpg',
+      count: 1
+    }
+  },
+  methods: {
+    select() {
+      this.count++
+      if (this.count > 3) 
+         {this.count = 1;}
     }
   }
 }
@@ -12,12 +19,14 @@ export default {
 <template>
 <div class="photos">
    <h1>Photos</h1>
-   <h4>Australian Catholic University, Strathfield Campus</h4>
-   <img :src="acu" alt="acu">
+   <button @click="select"><b>Click to select next photo</b></button>
    <br />
-
-   <h4>University of Technology Sydney, Building 5</h4>
-   <img :src="uts" alt="acu">
+   <h4 v-if="count==1">Australian Catholic University, Strathfield Campus, NSW, Australia</h4>
+   <img v-if="count==1" src="\acupy.jpg" alt="acu">
+   <h4 v-if="count==2">University of Technology Sydney, Building 5, Sydney, Australia</h4>
+   <img v-if="count==2" src="\uts-bldg5.jpg" alt="acu">
+   <h4 v-if="count==3">Homebush Public School, Homebush, NSW, Australia</h4>
+   <img v-if="count==3" src="\hps.jpg" alt="acu">   
 </div>
 </template>
 
