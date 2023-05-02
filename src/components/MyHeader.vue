@@ -16,7 +16,6 @@ defineProps({
 
 <style scoped>
 .titles {
-  	background-color: AliceBlue;
 	padding: 3px;
 	color: orange; 
 }
