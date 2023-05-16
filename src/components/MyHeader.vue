@@ -16,8 +16,9 @@ defineProps({
 
 <style scoped>
 .titles {
-	padding: 3px;
+	padding: 2px;
 	color: orange; 
+        background-color: LightCyan;
 }
 
 h1 {
