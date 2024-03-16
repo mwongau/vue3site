@@ -13,8 +13,7 @@
 	<li>IBM Data Science Professional Certificate by IBM on Coursera</li>
 	<li>Professional Certificate of "DeepLearning.AI TensorFlow Developer", by DeepLearning.AI
 	    on Coursera</li>
-	<li>Professional Certificate in "Unlocking Information Security" by Tel Aviv University, 
-	    IsraelX & edX</li>
+	
 	</ul>
 		
 	<h2>Research specialism</h2>
