@@ -1,7 +1,6 @@
 <script setup>
 import {ref} from 'vue'
 
-const img = ref('/acupy.jpg')
 const count = ref(1)
 
 function select() {
