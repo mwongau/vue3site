@@ -5,7 +5,6 @@ import MyHeader from './components/MyHeader.vue'
 
 <template>    
    <MyHeader msg="M Wong" />
-
    <div class="nav">
    <RouterLink to="/">Home</RouterLink> |
    <RouterLink to="/cv">CV</RouterLink> |

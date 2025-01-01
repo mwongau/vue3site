@@ -24,9 +24,9 @@
 
 	<h2>Skills & experience</h2>
 	<ul>
-	<li>Programming languages: Python, Java, JavaScript, C++</li>
-	<li>Web frameworks: Flask, Django, ReactJS, Svelte, Vue</li>
-	<li>Machine learning library: Tensorflow, scikit-learn, Weka</li>
+	<li>Programming languages: Python, Java, JavaScript, C++, C#</li>
+	<li>Web frameworks: Flask, Django, React, Svelte, Vue</li>
+	<li>Machine learning library: Tensorflow, scikit-learn</li>
 	<li>Computer vision library: OpenCV, scikit-image</li>
 	</ul>
 </div>
