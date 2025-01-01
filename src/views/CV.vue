@@ -4,8 +4,8 @@
 	<h2>Academic degrees</h2>
 	<ul>
 	<li>PhD in Computer Science </li>
-	<li>M.Sc in Electronic Engineering</li>
-	<li>B.Sc (Hons.) in Electrical & Electronic Engineering</li>
+	<li>M.Sc in Electrical and Electronic Engineering</li>
+	<li>B.Sc (Hons.) in Electrical and Electronic Engineering</li>
 	</ul>
 	
 	<h2>Certificates</h2>
