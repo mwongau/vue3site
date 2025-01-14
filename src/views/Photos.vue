@@ -16,8 +16,8 @@ function select() {
 
 <template>
 <div class="photos">
-   <h1>Photos</h1>
-   <button @click="select"><b>Select next photo</b></button>
+   <h2>Photos</h2>
+   <button @click="select"><b>Next photo</b></button>
    <br />
    <h4>{{desc[count]}}</h4>
    <img :src="images[count]" alt="image" />

@@ -1,10 +1,10 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import MyHeader from './components/MyHeader.vue'
+import Header from './components/Header.vue'
 </script>
 
 <template>    
-   <MyHeader msg="M Wong" />
+   <Header msg="M Wong" />
    <div class="nav">
    <RouterLink to="/">Home</RouterLink> |
    <RouterLink to="/cv">CV</RouterLink> |
@@ -21,17 +21,14 @@ import MyHeader from './components/MyHeader.vue'
   padding: 10px;
   text-align: left;
 }
-
 .nav a {
   font-weight: bold;
   color: black;
   text-decoration: none;
 }
-
 .nav a.router-link-exact-active {
   color: blue;
 } 
-
 .nav a:hover {
   color: green;
 }

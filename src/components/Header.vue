@@ -1,5 +1,5 @@
 <script setup>
-defineProps({
+const props = defineProps({
   msg: {
     type: String,
     required: true
@@ -9,7 +9,7 @@ defineProps({
 
 <template>
   <div class="titles">
-    <h1>{{msg}}</h1>
+    <h1>{{props.msg}}</h1>
     <h3> My personal site </h3>
   </div>
 </template>
@@ -18,16 +18,11 @@ defineProps({
 .titles {
   	background-color: AliceBlue;
 	padding: 3px;
-	color: orange; 
+	color: purple; 
 }
 
 h1 {
-  font-size: 2.6rem;
   font-weight: bold;
-}
-
-h3 {
-  font-size: 1.2rem;
 }
 
 .titles h1,
