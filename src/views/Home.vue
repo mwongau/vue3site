@@ -9,14 +9,10 @@
 	</div>	
 
 	<div class="Footer">
-	<p>This site might use cookies in order to improve the web browsing experience of users. If 
-	you continue to use this site, it will be assumed you agree to the use of cookies.</p>
+	
 	</div>
   </main>
 </template>
 
 <style scoped>
-.Footer {
-    background-color: FloralWhite;
-}
 </style>
